@@ -1,0 +1,331 @@
+.card-img-top {
+    width: 100%;
+    height: 12rem;
+}
+
+.card{
+    padding: 5px;
+    margin: 10px 10px;
+    background-image: linear-gradient(#91EAE4,#86A8E7,#7F7FD5);
+}
+h3,h2{
+    text-align: center;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+a h2{
+    color: blueviolet ;
+}
+
+footer a{
+    text-decoration: none;
+    margin: 20px;
+}
+
+body {
+    background: #fbfbfd;
+}
+
+.new_footer_area {
+    background: #fbfbfd;
+}
+
+
+.new_footer_top {
+    padding: 120px 0px 270px;
+    position: relative;
+      overflow-x: hidden;
+}
+.new_footer_area .footer_bottom {
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.footer_bottom {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #7f88a6;
+    padding: 27px 0px;
+}
+.new_footer_top .company_widget p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #6a7695;
+    margin-bottom: 20px;
+}
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
+    border-width: 1px;
+    margin-top: 20px;
+}
+.btn_get_two:hover {
+    background: transparent;
+    color: #5e2ced;
+}
+.btn_get:hover {
+    color: #fff;
+    background: #6754e2;
+    border-color: #6754e2;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
+    color: #5e2ced;
+}
+.new_footer_top .f_widget.about-widget .f_list li {
+    margin-bottom: 11px;
+}
+.f_widget.about-widget .f_list li:last-child {
+    margin-bottom: 0px;
+}
+.f_widget.about-widget .f_list li {
+    margin-bottom: 15px;
+}
+.f_widget.about-widget .f_list {
+    margin-bottom: 0px;
+}
+.new_footer_top .f_social_icon a {
+    width: 44px;
+    height: 44px;
+    line-height: 43px;
+    background: transparent;
+    border: 1px solid #e2e2eb;
+    font-size: 24px;
+}
+.f_social_icon a {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 45px;
+    color: #858da8;
+    display: inline-block;
+    background: #ebeef5;
+    text-align: center;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.ti-facebook:before {
+    content: "\e741";
+}
+.ti-twitter-alt:before {
+    content: "\e74b";
+}
+.ti-vimeo-alt:before {
+    content: "\e74a";
+}
+.ti-pinterest:before {
+    content: "\e731";
+}
+
+.btn_get_two {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #5e2ced;
+    border-color: #5e2ced;
+    color: #fff;
+}
+
+.btn_get_two:hover {
+    background: transparent;
+    color: #5e2ced;
+}
+
+.new_footer_top .f_social_icon a:hover {
+    background: #5e2ced;
+    border-color: #5e2ced;
+  color:white;
+}
+.new_footer_top .f_social_icon a + a {
+    margin-left: 4px;
+}
+.new_footer_top .f-title {
+    margin-bottom: 30px;
+    color: #263b5e;
+}
+.f_600 {
+    font-weight: 600;
+}
+.f_size_18 {
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #4b505e;
+}
+.new_footer_top .f_widget.about-widget .f_list li a {
+    color: #6a7695;
+}
+
+
+.new_footer_top .footer_bg {
+    position: absolute;
+    bottom: 0;
+    background: url("http://droitthemes.com/html/saasland/img/seo/footer_bg.png") no-repeat scroll center 0;
+    width: 100%;
+    height: 266px;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+    background: url("https://1.bp.blogspot.com/-mvKUJFGEc-k/XclCOUSvCnI/AAAAAAAAUAE/jnBSf6Fe5_8tjjlKrunLBXwceSNvPcp3wCLcBGAsYHQ/s1600/volks.gif") no-repeat center center;
+    width: 330px;
+    height: 105px;
+  background-size:100%;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    -webkit-animation: myfirst 22s linear infinite;
+    animation: myfirst 22s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
+    background: url("https://1.bp.blogspot.com/-hjgfxUW1o1g/Xck--XOdlxI/AAAAAAAAT_4/JWYFJl83usgRFMvRfoKkSDGd--_Sv04UQCLcBGAsYHQ/s1600/cyclist.gif") no-repeat center center;
+    width: 88px;
+    height: 100px;
+  background-size:100%;
+    bottom: 0;
+    left: 38%;
+    position: absolute;
+    -webkit-animation: myfirst 30s linear infinite;
+    animation: myfirst 30s linear infinite;
+}
+
+
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/*************footer End*****************/
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #5e2ced;
+    text-decoration: none;
+    color: #555;
+  }
+
+
+  /* why Us section */
+
+
+.why-us h2 {
+    position: relative;
+    margin-bottom: 35px;
+}
+.why-us h2::after {
+    content: "";
+    width: 120px;
+    height: 3px;
+    display: inline-block;
+    background: #FFC107;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -20px;
+    margin: 0 auto;
+}
+
+.why-us .box {
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+    transition: 0.5s;
+    position: relative;
+    background-color: #333;
+    max-height: 230px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.why-us .box:hover {
+	padding: 30px 30px 70px 30px;
+	box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.20);
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.why-us .box img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: -1;
+	opacity: 0;
+	transition:all ease 1s; 
+}
+.why-us .box:hover img {
+	opacity: 1;
+}
+.why-us .box span {
+    display: block;
+    font-size: 56px;
+    font-weight: 700;
+    color: #6b6060;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    line-height: normal;
+}
+.why-us .box h4 a {
+	font-size: 24px;
+	font-weight: 600;
+	padding: 0;
+	margin: 20px 0;
+	color: #dadada;
+	text-decoration: none;
+}
+.why-us .box p {
+	color: #aaaaaa;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+}
+.why-us .box:hover span,
+.why-us .box:hover h4 a,
+.why-us .box:hover p {
+  	color: #fff;
+}
