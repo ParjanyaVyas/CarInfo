@@ -1,0 +1,1035 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body{
+background:#dcdcdc;    
+}
+.total-like-user-main a {
+    display: inline-block;
+    margin: 0 -17px 0 0;
+}
+.total-like {
+    border: 1px solid;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: 500;
+    height: 34px;
+    line-height: 33px;
+    padding: 0 13px;
+    vertical-align: top;
+}
+.restaurant-detailed-ratings-and-reviews hr {
+    margin: 0 -24px;
+}
+.graph-star-rating-header .star-rating {
+    font-size: 17px;
+}
+.progress {
+    background: #f2f4f8 none repeat scroll 0 0;
+    border-radius: 0;
+    height: 30px;
+}
+.rating-list {
+    display: inline-flex;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.rating-list-left {
+    height: 16px;
+    line-height: 29px;
+    width: 10%;
+}
+.rating-list-center {
+    width: 80%;
+}
+.rating-list-right {
+    line-height: 29px;
+    text-align: right;
+    width: 10%;
+}
+.restaurant-slider-pics {
+    bottom: 0;
+    font-size: 12px;
+    left: 0;
+    z-index: 999;
+    padding: 0 10px;
+}
+.restaurant-slider-view-all {
+    bottom: 15px;
+    right: 15px;
+    z-index: 999;
+}
+.offer-dedicated-nav .nav-link.active,
+.offer-dedicated-nav .nav-link:hover,
+.offer-dedicated-nav .nav-link:focus {
+    border-color: #3868fb;
+    color: #3868fb;
+}
+.offer-dedicated-nav .nav-link {
+    border-bottom: 2px solid #fff;
+    color: #000000;
+    padding: 16px 0;
+    font-weight: 600;
+}
+.offer-dedicated-nav .nav-item {
+    margin: 0 37px 0 0;
+}
+.restaurant-detailed-action-btn {
+    margin-top: 12px;
+}
+.restaurant-detailed-header-right .btn-success {
+    border-radius: 3px;
+    height: 45px;
+    margin: -18px 0 18px;
+    min-width: 130px;
+    padding: 7px;
+}
+.text-black {
+    color: #000000;
+}
+.icon-overlap {
+    bottom: -23px;
+    font-size: 74px;
+    opacity: 0.23;
+    position: absolute;
+    right: -32px;
+}
+.menu-list img {
+    width: 41px;
+    height: 41px;
+    object-fit: cover;
+}
+.restaurant-detailed-header-left img {
+    width: 88px;
+    height: 88px;
+    border-radius: 3px;
+    object-fit: cover;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+}
+.reviews-members .media .mr-3 {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+}
+.rounded-pill {
+    border-radius: 50rem!important;
+}
+.total-like-user {
+    border: 2px solid #fff;
+    height: 34px;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+    width: 34px;
+}
+.total-like-user-main a {
+    display: inline-block;
+    margin: 0 -17px 0 0;
+}
+.total-like {
+    border: 1px solid;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: 500;
+    height: 34px;
+    line-height: 33px;
+    padding: 0 13px;
+    vertical-align: top;
+}
+.restaurant-detailed-ratings-and-reviews hr {
+    margin: 0 -24px;
+}
+.graph-star-rating-header .star-rating {
+    font-size: 17px;
+}
+.progress {
+    background: #f2f4f8 none repeat scroll 0 0;
+    border-radius: 0;
+    height: 30px;
+}
+.rating-list {
+    display: inline-flex;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.rating-list-left {
+    height: 16px;
+    line-height: 29px;
+    width: 10%;
+}
+.rating-list-center {
+    width: 80%;
+}
+.rating-list-right {
+    line-height: 29px;
+    text-align: right;
+    width: 10%;
+}
+.restaurant-slider-pics {
+    bottom: 0;
+    font-size: 12px;
+    left: 0;
+    z-index: 999;
+    padding: 0 10px;
+}
+.restaurant-slider-view-all {
+    bottom: 15px;
+    right: 15px;
+    z-index: 999;
+}
+
+.progress {
+    background: #f2f4f8 none repeat scroll 0 0;
+    border-radius: 0;
+    height: 30px;
+}
+body{
+    background: #edf1f5;
+    margin-top:20px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+    margin-top:20px;
+}
+.text-muted {
+    color: #8898aa!important;
+}
+.card .card-subtitle {
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #8898aa;
+}
+ul.list-style-none li {
+    list-style: none;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #707cd2;
+    transition: width .6s ease;
+}
+.progress {
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+    -o-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+}
+
+.progress {
+    display: flex;
+    height: 4px;
+    overflow: hidden;
+    font-size: .65625rem;
+    background-color: rgba(120,130,140,.13);
+    border-radius: 0;
+    box-shadow: inset 0 0.1rem 0.1rem rgba(0,0,0,.1);
+}
+.display-5 {
+    font-size: 50px !important;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+
+
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Car Information/Reviews|News</title>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><h2>Car Info</h2></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="brands.html">Brands</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reviews_news.html">Reviews | News</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About Car Info
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="about_us.html">About Us</a></li>
+                  <li><a class="dropdown-item" href="contact_us.html">Contact Us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="faqs.html" tabindex="-1" aria-disabled="true">FAQs</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search your car" aria-label="Search">
+              <button class="btn btn-outline-info" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <h3>Checkout Our Customers Review</h3> <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <link rel="stylesheet" href="https://allyoucan.cloud/cdn/icofont/1.0.1/icofont.css" integrity="sha384-jbCTJB16Q17718YM9U22iJkhuGbS0Gd2LjaWb4YJEZToOPmnKDjySVa323U+W7Fv" crossorigin="anonymous">
+<div class="container">
+<div class="col-md-12">
+    <div class="offer-dedicated-body-left">
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade" id="pills-order-online" role="tabpanel" aria-labelledby="pills-order-online-tab">
+                <div id="#menu" class="bg-white rounded shadow-sm p-4 mb-4 explore-outlets">
+                    <h5 class="mb-4">Recommended</h5>
+                    <form class="explore-outlets-search mb-4">
+                        <div class="input-group">
+                            <input type="text" placeholder="Search for dishes..." class="form-control">
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-link">
+                                    <i class="icofont-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <h6 class="mb-3">Most Popular  <span class="badge badge-success"><i class="icofont-tags"></i> 15% Off All Items </span></h6>
+                    <div class="owl-carousel owl-theme owl-carousel-five offers-interested-carousel mb-3 owl-loaded owl-drag owl-hidden">
+
+                        
+                        <div class="owl-nav">
+                            <button type="button" role="presentation" class="owl-prev"><i class="icofont-thin-left"></i></button>
+                            <button type="button" role="presentation" class="owl-next"><i class="icofont-thin-right"></i></button>
+                        </div>
+                        <div class="owl-dots disabled"></div>
+                    </div>
+                </div>
+               
+                <div class="row">
+                    <h5 class="mb-4 mt-3 col-md-12">Quick Bites <small class="h6 text-black-50">3 ITEMS</small></h5>
+                    <div class="col-md-12">
+                        <div class="bg-white rounded border shadow-sm mb-4">
+                            <div class="gold-members p-3 border-bottom">
+                                <a class="btn btn-outline-secondary btn-sm  float-right" href="#">ADD</a>
+                                <div class="media">
+                                    <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+                                    <div class="media-body">
+                                        <h6 class="mb-1">Chicken Tikka Sub</h6>
+                                        <p class="text-gray mb-0">$314 - 12" (30 cm)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gold-members p-3 border-bottom">
+                                <span class="count-number float-right">
+                                       <button class="btn btn-outline-secondary  btn-sm left dec"> <i class="icofont-minus"></i> </button>
+                                       <input class="count-number-input" type="text" value="1" readonly="">
+                                       <button class="btn btn-outline-secondary btn-sm right inc"> <i class="icofont-plus"></i> </button>
+                                       </span>
+                                <div class="media">
+                                    <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+                                    <div class="media-body">
+                                        <h6 class="mb-1">Cheese corn Roll <span class="badge badge-danger">BESTSELLER</span></h6>
+                                        <p class="text-gray mb-0">$600</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gold-members p-3">
+                                <span class="count-number float-right">
+                                       <button class="btn btn-outline-secondary  btn-sm left dec"> <i class="icofont-minus"></i> </button>
+                                       <input class="count-number-input" type="text" value="1" readonly="">
+                                       <button class="btn btn-outline-secondary btn-sm right inc"> <i class="icofont-plus"></i> </button>
+                                       </span>
+                                <div class="media">
+                                    <div class="mr-3"><i class="icofont-ui-press text-success food-item"></i></div>
+                                    <div class="media-body">
+                                        <h6 class="mb-1">Cheese Spinach corn Roll <span class="badge badge-success">Pure Veg</span></h6>
+                                        <p class="text-gray mb-0">$600</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5 class="mb-4 mt-3 col-md-12">Starters <small class="h6 text-black-50">3 ITEMS</small></h5>
+                    <div class="col-md-12">
+                        <div class="bg-white rounded border shadow-sm mb-4">
+                            <div class="menu-list p-3 border-bottom">
+                                <span class="count-number float-right">
+                                       <button class="btn btn-outline-secondary  btn-sm left dec"> <i class="icofont-minus"></i> </button>
+                                       <input class="count-number-input" type="text" value="1" readonly="">
+                                       <button class="btn btn-outline-secondary btn-sm right inc"> <i class="icofont-plus"></i> </button>
+                                       </span>
+                                <div class="media">
+                                    <img class="mr-3 rounded-pill" src="img/5.jpg" alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h6 class="mb-1">Veg Spring Roll</h6>
+                                        <p class="text-gray mb-0">$314 - 12" (30 cm)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu-list p-3 border-bottom">
+                                <span class="count-number float-right">
+                                       <button class="btn btn-outline-secondary  btn-sm left dec"> <i class="icofont-minus"></i> </button>
+                                       <input class="count-number-input" type="text" value="1" readonly="">
+                                       <button class="btn btn-outline-secondary btn-sm right inc"> <i class="icofont-plus"></i> </button>
+                                       </span>
+                                <div class="media">
+                                    <img class="mr-3 rounded-pill" src="img/2.jpg" alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h6 class="mb-1">Stuffed Mushroom <span class="badge badge-danger">BESTSELLER</span></h6>
+                                        <p class="text-gray mb-0">$600</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu-list p-3">
+                                <span class="count-number float-right">
+                                       <button class="btn btn-outline-secondary  btn-sm left dec"> <i class="icofont-minus"></i> </button>
+                                       <input class="count-number-input" type="text" value="1" readonly="">
+                                       <button class="btn btn-outline-secondary btn-sm right inc"> <i class="icofont-plus"></i> </button>
+                                       </span>
+                                <div class="media">
+                                    <img class="mr-3 rounded-pill" src="img/3.jpg" alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h6 class="mb-1">Honey Chilli Potato
+                                                <span class="badge badge-success">Pure Veg</span>
+                                             </h6>
+                                        <p class="text-gray mb-0">$600</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5 class="mb-4 mt-3 col-md-12">Soups <small class="h6 text-black-50">8 ITEMS</small></h5>
+                    <div class="col-md-12">
+                        <div class="bg-white rounded border shadow-sm">
+                            <div class="gold-members p-3 border-bottom">
+                                <a class="btn btn-outline-secondary btn-sm  float-right" href="#">ADD</a>
+                                <div class="media">
+                                    <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+                                    <div class="media-body">
+                                        <h6 class="mb-1">Tomato Dhania Shorba</h6>
+                                        <p class="text-gray mb-0">$314 - 12" (30 cm)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gold-members p-3 border-bottom">
+                                <a class="btn btn-outline-secondary btn-sm  float-right" href="#">ADD</a>
+                                <div class="media">
+                                    <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+                                    <div class="media-body">
+                                        <h6 class="mb-1">Veg Manchow Soup</h6>
+                                        <p class="text-gray mb-0">$600</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gold-members p-3 border-bottom">
+                                <span class="count-number float-right">
+                                       <button class="btn btn-outline-secondary  btn-sm left dec"> <i class="icofont-minus"></i> </button>
+                                       <input class="count-number-input" type="text" value="1" readonly="">
+                                       <button class="btn btn-outline-secondary btn-sm right inc"> <i class="icofont-plus"></i> </button>
+                                       </span>
+                                <div class="media">
+                                    <div class="mr-3"><i class="icofont-ui-press text-success food-item"></i></div>
+                                    <div class="media-body">
+                                        <h6 class="mb-1">Lemon Coriander Soup</h6>
+                                        <p class="text-gray mb-0">$600</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gold-members p-3 border-bottom">
+                                <a class="btn btn-outline-secondary btn-sm  float-right" href="#">ADD</a>
+                                <div class="media">
+                                    <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+                                    <div class="media-body">
+                                        <h6 class="mb-1">Tomato Dhania Shorba</h6>
+                                        <p class="text-gray mb-0">$314 - 12" (30 cm)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gold-members p-3 border-bottom">
+                                <a class="btn btn-outline-secondary btn-sm  float-right" href="#">ADD</a>
+                                <div class="media">
+                                    <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+                                    <div class="media-body">
+                                        <h6 class="mb-1">Veg Manchow Soup</h6>
+                                        <p class="text-gray mb-0">$600</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gold-members p-3">
+                                <a class="btn btn-outline-secondary btn-sm  float-right" href="#">ADD</a>
+                                <div class="media">
+                                    <div class="mr-3"><i class="icofont-ui-press text-success food-item"></i></div>
+                                    <div class="media-body">
+                                        <h6 class="mb-1">Lemon Coriander Soup</h6>
+                                        <p class="text-gray mb-0">$600</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-gallery" role="tabpanel" aria-labelledby="pills-gallery-tab">
+                <div id="gallery" class="bg-white rounded shadow-sm p-4 mb-4">
+                    <div class="restaurant-slider-main position-relative homepage-great-deals-carousel">
+                        <div class="owl-carousel owl-theme homepage-ad owl-loaded owl-drag owl-hidden">
+
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage" style="transform: translate3d(-1364px, 0px, 0px); transition: all 0s ease 0s; width: 8184px;">
+                                    <div class="owl-item cloned" style="width: 682px;">
+                                        <div class="item">
+                                            <img class="img-fluid" src="img/gallery/1.png">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 682px;">
+                                        <div class="item">
+                                            <img class="img-fluid" src="img/gallery/2.png">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 682px;">
+                                        <div class="item">
+                                            <img class="img-fluid" src="img/gallery/3.png">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item active" style="width: 682px;">
+                                        <div class="item">
+                                            <img class="img-fluid" src="img/gallery/1.png">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 682px;">
+                                        <div class="item">
+                                            <img class="img-fluid" src="img/gallery/2.png">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 682px;">
+                                        <div class="item">
+                                            <img class="img-fluid" src="img/gallery/3.png">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 682px;">
+                                        <div class="item">
+                                            <img class="img-fluid" src="img/gallery/1.png">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 682px;">
+                                        <div class="item">
+                                            <img class="img-fluid" src="img/gallery/2.png">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 682px;">
+                                        <div class="item">
+                                            <img class="img-fluid" src="img/gallery/3.png">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 682px;">
+                                        <div class="item">
+                                            <img class="img-fluid" src="img/gallery/1.png">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 682px;">
+                                        <div class="item">
+                                            <img class="img-fluid" src="img/gallery/2.png">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 682px;">
+                                        <div class="item">
+                                            <img class="img-fluid" src="img/gallery/3.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-nav">
+                                <button type="button" role="presentation" class="owl-prev"><i class="fa fa-chevron-left"></i></button>
+                                <button type="button" role="presentation" class="owl-next"><i class="fa fa-chevron-right"></i></button>
+                            </div>
+                            <div class="owl-dots disabled"></div>
+                        </div>
+                        <div class="position-absolute restaurant-slider-pics bg-dark text-white">2 of 14 Photos</div>
+                        <div class="position-absolute restaurant-slider-view-all">
+                            <button type="button" class="btn btn-light bg-white">See all Photos</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-restaurant-info" role="tabpanel" aria-labelledby="pills-restaurant-info-tab">
+                <div id="restaurant-info" class="bg-white rounded shadow-sm p-4 mb-4">
+                    <div class="address-map float-right ml-5">
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe width="300" height="170" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="mb-4">Restaurant Info</h5>
+                    <p class="mb-3">Jagjit Nagar, Near Railway Crossing,
+                        <br> Near Model Town, Ludhiana, PUNJAB
+                    </p>
+                    <p class="mb-2 text-black"><i class="icofont-phone-circle text-primary mr-2"></i> +91 01234-56789, +91 01234-56789</p>
+                    <p class="mb-2 text-black"><i class="icofont-email text-primary mr-2"></i> iamosahan@gmail.com, osahaneat@gmail.com</p>
+                    <p class="mb-2 text-black"><i class="icofont-clock-time text-primary mr-2"></i> Today 11am – 5pm, 6pm – 11pm
+                        <span class="badge badge-success"> OPEN NOW </span>
+                    </p>
+                    <hr class="clearfix">
+                    <p class="text-black mb-0">You can also check the 3D view by using our menue map clicking here &nbsp;&nbsp;&nbsp; <a class="text-info font-weight-bold" href="#">Venue Map</a></p>
+                    <hr class="clearfix">
+                    <h5 class="mt-4 mb-4">More Info</h5>
+                    <p class="mb-3">Dal Makhani, Panneer Butter Masala, Kadhai Paneer, Raita, Veg Thali, Laccha Paratha, Butter Naan</p>
+                    <div class="border-btn-main mb-4">
+                        <a class="border-btn text-success mr-2" href="#"><i class="icofont-check-circled"></i> Breakfast</a>
+                        <a class="border-btn text-danger mr-2" href="#"><i class="icofont-close-circled"></i> No Alcohol Available</a>
+                        <a class="border-btn text-success mr-2" href="#"><i class="icofont-check-circled"></i> Vegetarian Only</a>
+                        <a class="border-btn text-success mr-2" href="#"><i class="icofont-check-circled"></i> Indoor Seating</a>
+                        <a class="border-btn text-success mr-2" href="#"><i class="icofont-check-circled"></i> Breakfast</a>
+                        <a class="border-btn text-danger mr-2" href="#"><i class="icofont-close-circled"></i> No Alcohol Available</a>
+                        <a class="border-btn text-success mr-2" href="#"><i class="icofont-check-circled"></i> Vegetarian Only</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-book" role="tabpanel" aria-labelledby="pills-book-tab">
+                <div id="book-a-table" class="bg-white rounded shadow-sm p-4 mb-5 rating-review-select-page">
+                    <h5 class="mb-4">Book A Table</h5>
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Full Name</label>
+                                    <input class="form-control" type="text" placeholder="Enter Full Name">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Email Address</label>
+                                    <input class="form-control" type="text" placeholder="Enter Email address">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Mobile number</label>
+                                    <input class="form-control" type="text" placeholder="Enter Mobile number">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Date And Time</label>
+                                    <input class="form-control" type="text" placeholder="Enter Date And Time">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group text-right">
+                            <button class="btn btn-danger" type="button"> Submit </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="tab-pane fade active show" id="pills-reviews" role="tabpanel" aria-labelledby="pills-reviews-tab">
+                <div id="ratings-and-reviews" class="bg-white rounded shadow-sm p-4 mb-4 clearfix restaurant-detailed-star-rating">
+                    <span class="star-rating float-right">
+                              <a href="#"><i class="icofont-ui-rating icofont-2x active"></i></a>
+                              <a href="#"><i class="icofont-ui-rating icofont-2x active"></i></a>
+                              <a href="#"><i class="icofont-ui-rating icofont-2x active"></i></a>
+                              <a href="#"><i class="icofont-ui-rating icofont-2x active"></i></a>
+                              <a href="#"><i class="icofont-ui-rating icofont-2x"></i></a>
+                              </span>
+                    <h5 class="mb-0 pt-1">Rate this Place</h5>
+                </div>
+                <div class="bg-white rounded shadow-sm p-4 mb-4 clearfix graph-star-rating">
+                    <h5 class="mb-0 mb-4">Ratings and Reviews</h5>
+                    <div class="graph-star-rating-header">
+                        <div class="star-rating">
+                            <a href="#"><i class="icofont-ui-rating active"></i></a>
+                            <a href="#"><i class="icofont-ui-rating active"></i></a>
+                            <a href="#"><i class="icofont-ui-rating active"></i></a>
+                            <a href="#"><i class="icofont-ui-rating active"></i></a>
+                            <a href="#"><i class="icofont-ui-rating"></i></a> <b class="text-black ml-2">334</b>
+                        </div>
+                        <p class="text-black mb-4 mt-2">Rated 3.5 out of 5</p>
+                    </div>
+                    <div class="graph-star-rating-body">
+                        <div class="rating-list">
+                            <div class="rating-list-left text-black">
+                                5 Star
+                            </div>
+                            <div class="rating-list-center">
+                                <div class="progress">
+                                    <div style="width: 56%" aria-valuemax="5" aria-valuemin="0" aria-valuenow="5" role="progressbar" class="progress-bar bg-primary">
+                                        <span class="sr-only">80% Complete (danger)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rating-list-right text-black">56%</div>
+                        </div>
+                        <div class="rating-list">
+                            <div class="rating-list-left text-black">
+                                4 Star
+                            </div>
+                            <div class="rating-list-center">
+                                <div class="progress">
+                                    <div style="width: 23%" aria-valuemax="5" aria-valuemin="0" aria-valuenow="5" role="progressbar" class="progress-bar bg-primary">
+                                        <span class="sr-only">80% Complete (danger)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rating-list-right text-black">23%</div>
+                        </div>
+                        <div class="rating-list">
+                            <div class="rating-list-left text-black">
+                                3 Star
+                            </div>
+                            <div class="rating-list-center">
+                                <div class="progress">
+                                    <div style="width: 11%" aria-valuemax="5" aria-valuemin="0" aria-valuenow="5" role="progressbar" class="progress-bar bg-primary">
+                                        <span class="sr-only">80% Complete (danger)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rating-list-right text-black">11%</div>
+                        </div>
+                        <div class="rating-list">
+                            <div class="rating-list-left text-black">
+                                2 Star
+                            </div>
+                            <div class="rating-list-center">
+                                <div class="progress">
+                                    <div style="width: 2%" aria-valuemax="5" aria-valuemin="0" aria-valuenow="5" role="progressbar" class="progress-bar bg-primary">
+                                        <span class="sr-only">80% Complete (danger)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rating-list-right text-black">02%</div>
+                        </div>
+                    </div>
+                    <div class="graph-star-rating-footer text-center mt-3 mb-3">
+                        <button type="button" class="btn btn-outline-primary btn-sm">Rate and Review</button>
+                    </div>
+                </div>
+                <div class="bg-white rounded shadow-sm p-4 mb-4 restaurant-detailed-ratings-and-reviews">
+                    <a href="#" class="btn btn-outline-primary btn-sm float-right">Top Rated</a>
+                    <h5 class="mb-1">All Ratings and Reviews</h5>
+                    <div class="reviews-members pt-4 pb-4">
+                        <div class="media">
+                            <a href="#"><img alt="Generic placeholder image" src="http://bootdey.com/img/Content/avatar/avatar1.png" class="mr-3 rounded-pill"></a>
+                            <div class="media-body">
+                                <div class="reviews-members-header">
+                                    <span class="star-rating float-right">
+                                          <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                          <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                          <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                          <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                          <a href="#"><i class="icofont-ui-rating"></i></a>
+                                          </span>
+                                    <h6 class="mb-1"><a class="text-black" href="#">Singh Osahan</a></h6>
+                                    <p class="text-gray">Tue, 20 Mar 2020</p>
+                                </div>
+                                <div class="reviews-members-body">
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections </p>
+                                </div>
+                                <div class="reviews-members-footer">
+                                    <a class="total-like" href="#"><i class="icofont-thumbs-up"></i> 856M</a> <a class="total-like" href="#"><i class="icofont-thumbs-down"></i> 158K</a>
+                                    <span class="total-like-user-main ml-2" dir="rtl">
+                                          <a data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="Gurdeep Osahan"><img alt="Generic placeholder image" src="http://bootdey.com/img/Content/avatar/avatar5.png" class="total-like-user rounded-pill"></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="Gurdeep Singh"><img alt="Generic placeholder image" src="http://bootdey.com/img/Content/avatar/avatar2.png" class="total-like-user rounded-pill"></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="Askbootstrap"><img alt="Generic placeholder image" src="http://bootdey.com/img/Content/avatar/avatar3.png" class="total-like-user rounded-pill"></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="Osahan"><img alt="Generic placeholder image" src="http://bootdey.com/img/Content/avatar/avatar4.png" class="total-like-user rounded-pill"></a>
+                                          </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="reviews-members pt-4 pb-4">
+                        <div class="media">
+                            <a href="#"><img alt="Generic placeholder image" src="http://bootdey.com/img/Content/avatar/avatar6.png" class="mr-3 rounded-pill"></a>
+                            <div class="media-body">
+                                <div class="reviews-members-header">
+                                    <span class="star-rating float-right">
+                                          <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                          <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                          <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                          <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                          <a href="#"><i class="icofont-ui-rating"></i></a>
+                                          </span>
+                                    <h6 class="mb-1"><a class="text-black" href="#">Gurdeep Singh</a></h6>
+                                    <p class="text-gray">Tue, 20 Mar 2020</p>
+                                </div>
+                                <div class="reviews-members-body">
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                                </div>
+                                <div class="reviews-members-footer">
+                                    <a class="total-like" href="#"><i class="icofont-thumbs-up"></i> 88K</a> <a class="total-like" href="#"><i class="icofont-thumbs-down"></i> 1K</a>
+                                    <span class="total-like-user-main ml-2" dir="rtl">
+                                          <a data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="Gurdeep Osahan"><img alt="Generic placeholder image" src="http://bootdey.com/img/Content/avatar/avatar5.png" class="total-like-user rounded-pill"></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="Gurdeep Singh"><img alt="Generic placeholder image" src="http://bootdey.com/img/Content/avatar/avatar2.png" class="total-like-user rounded-pill"></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="Askbootstrap"><img alt="Generic placeholder image" src="http://bootdey.com/img/Content/avatar/avatar3.png" class="total-like-user rounded-pill"></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="Osahan"><img alt="Generic placeholder image" src="http://bootdey.com/img/Content/avatar/avatar4.png" class="total-like-user rounded-pill"></a>
+                                          </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <a class="text-center w-100 d-block mt-4 font-weight-bold" href="#">See All Reviews</a>
+                </div>
+                <div class="bg-white rounded shadow-sm p-4 mb-5 rating-review-select-page">
+                    <h5 class="mb-4">Leave Comment</h5>
+                    <p class="mb-2">Rate the Place</p>
+                    <div class="mb-4">
+                        <span class="star-rating">
+                                 <a href="#"><i class="icofont-ui-rating icofont-2x"></i></a>
+                                 <a href="#"><i class="icofont-ui-rating icofont-2x"></i></a>
+                                 <a href="#"><i class="icofont-ui-rating icofont-2x"></i></a>
+                                 <a href="#"><i class="icofont-ui-rating icofont-2x"></i></a>
+                                 <a href="#"><i class="icofont-ui-rating icofont-2x"></i></a>
+                                 </span>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label>Your Comment</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-danger btn-sm" type="button"> Submit Comment </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="row">
+              <div class="col-lg-12">
+                  <div class="card">
+                      <div class="row">
+                          <div class="col-sm-12 col-lg-4">
+                              <div class="card-body">
+                                  <h4 class="card-title">Reviews</h4>
+                                  <h5 class="card-subtitle">Overview of Review</h5>
+                                  <h2 class="font-medium mt-5 mb-0">25426</h2>
+                                  <span class="text-muted">This month we got 346 New Reviews</span>
+                                  <div class="image-box mt-4 mb-4">
+                                      <a href="#" class="mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Simmons"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle" width="45" alt="user"></a>
+                                      <a href="#" class="mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Fitz"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle" width="45" alt="user"></a>
+                                      <a href="#" class="mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Phil"><img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle" width="45" alt="user"></a>
+                                      <a href="#" class="mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Melinda"><img src="https://bootdey.com/img/Content/avatar/avatar4.png" class="rounded-circle" width="45" alt="user"></a>
+                                  </div>
+                                  <a href="javascript:void(0)" class="btn btn-lg btn-info waves-effect waves-light">Checkout All Reviews</a>
+                              </div>
+                          </div>
+                          <div class="col-sm-12 col-lg-8 border-left">
+                              <div class="card-body">
+                                  <ul class="list-style-none">
+                                      <li class="mt-4">
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa fa-smile-o display-5 text-muted"></i>
+                                              <div class="ml-2">
+                                                  <h5 class="mb-0">Positive Reviews</h5>
+                                                  <span class="text-muted">25547 Reviews</span></div>
+                                          </div>
+                                          <div class="progress">
+                                              <div class="progress-bar bg-success" role="progressbar" style="width: 47%" aria-valuenow="47" aria-valuemin="0" aria-valuemax="100"></div>
+                                          </div>
+                                      </li>
+                                      <li class="mt-5">
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa fa-frown-o display-5 text-muted"></i>
+                                              <div class="ml-2">
+                                                  <h5 class="mb-0">Negative Reviews</h5>
+                                                  <span class="text-muted">5547 Reviews</span></div>
+                                          </div>
+                                          <div class="progress">
+                                              <div class="progress-bar bg-orange" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
+                                          </div>
+                                      </li>
+                                      <li class="mt-5 mb-5">
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa fa-meh-o display-5 text-muted"></i>
+                                              <div class="ml-2">
+                                                  <h5 class="mb-0">Neutral Reviews</h5>
+                                                  <span class="text-muted">547 Reviews</span></div>
+                                          </div>
+                                          <div class="progress">
+                                              <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            <div class="row">
+              <div class="col-lg-12">
+                  <div class="card">
+                      <div class="row">
+                          <div class="col-sm-12 col-lg-4">
+                              <div class="card-body">
+                                  <h4 class="card-title">Reviews</h4>
+                                  <h5 class="card-subtitle">Overview of Review</h5>
+                                  <h2 class="font-medium mt-5 mb-0">25426</h2>
+                                  <span class="text-muted">This month we got 346 New Reviews</span>
+                                  <div class="image-box mt-4 mb-4">
+                                      <a href="#" class="mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Simmons"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle" width="45" alt="user"></a>
+                                      <a href="#" class="mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Fitz"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle" width="45" alt="user"></a>
+                                      <a href="#" class="mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Phil"><img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle" width="45" alt="user"></a>
+                                      <a href="#" class="mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Melinda"><img src="https://bootdey.com/img/Content/avatar/avatar4.png" class="rounded-circle" width="45" alt="user"></a>
+                                  </div>
+                                  <a href="javascript:void(0)" class="btn btn-lg btn-info waves-effect waves-light">Checkout All Reviews</a>
+                              </div>
+                          </div>
+                          <div class="col-sm-12 col-lg-8 border-left">
+                              <div class="card-body">
+                                  <ul class="list-style-none">
+                                      <li class="mt-4">
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa fa-smile-o display-5 text-muted"></i>
+                                              <div class="ml-2">
+                                                  <h5 class="mb-0">Positive Reviews</h5>
+                                                  <span class="text-muted">25547 Reviews</span></div>
+                                          </div>
+                                          <div class="progress">
+                                              <div class="progress-bar bg-success" role="progressbar" style="width: 47%" aria-valuenow="47" aria-valuemin="0" aria-valuemax="100"></div>
+                                          </div>
+                                      </li>
+                                      <li class="mt-5">
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa fa-frown-o display-5 text-muted"></i>
+                                              <div class="ml-2">
+                                                  <h5 class="mb-0">Negative Reviews</h5>
+                                                  <span class="text-muted">5547 Reviews</span></div>
+                                          </div>
+                                          <div class="progress">
+                                              <div class="progress-bar bg-orange" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
+                                          </div>
+                                      </li>
+                                      <li class="mt-5 mb-5">
+                                          <div class="d-flex align-items-center">
+                                              <i class="fa fa-meh-o display-5 text-muted"></i>
+                                              <div class="ml-2">
+                                                  <h5 class="mb-0">Neutral Reviews</h5>
+                                                  <span class="text-muted">547 Reviews</span></div>
+                                          </div>
+                                          <div class="progress">
+                                              <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <footer class="new_footer_area bg_color">
+        <div class="new_footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+                            <p>Don’t miss any updates of our new cars and accessory.!</p>
+                            <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                                <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                                <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                                <p class="mchimp-errmessage" style="display: none;"></p>
+                                <p class="mchimp-sucmessage" style="display: none;"></p>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Download</h3>
+                            <ul class="list-unstyled f_list">
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">Android App</a></li>
+                                <li><a href="#">ios App</a></li>
+                                <li><a href="#">Desktop</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">My tasks</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+                            <ul class="list-unstyled f_list">
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Term &amp; conditions</a></li>
+                                <li><a href="#">Reporting</a></li>
+                                <li><a href="#">Documentation</a></li>
+                                <li><a href="#">Support Policy</a></li>
+                                <li><a href="#">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
+                            <div class="f_social_icon">
+                                <a href="#" class="fab fa-facebook">f</a>
+                                <a href="#" class="fab fa-twitter">T</a>
+                                <a href="#" class="fab fa-linkedin">Li</a>
+                                <a href="#" class="fab fa-pinterest">p</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bg">
+                <div class="footer_bg_one"></div>
+                <div class="footer_bg_two"></div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-sm-7">
+                        <p class="mb-0 f_400">© Car Info.. 2021 All rights reserved.</p>
+                    </div>
+                    <div class="col-lg-6 col-sm-5 text-right">
+                        <p>Made with <i class="icon_heart"></i><a href="#">Heart:)</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
