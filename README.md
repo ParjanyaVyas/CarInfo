@@ -1,3 +1,3 @@
 # CarInfo
 
-https://parjanyavyas.github.io/CarInfo/brands.html
+https://parjanyavyas.github.io/CarInfo/index.html
